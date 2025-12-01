@@ -1,0 +1,22 @@
+{
+    "name": "robeljone/mgrmodel",
+    "description": "Auto generate Eloquent Models from database migrations",
+    "autoload": {
+        "psr-4": {
+            "RobelJone\\MgrModel\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RobelJone\\MgrModel\\AutogenModelsServiceProvider"
+            ]
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "packages/robeljone/mgtmodel"
+        }
+    ]
+}
