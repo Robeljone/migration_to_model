@@ -9,7 +9,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "RobelJone\\MgrModel\\AutogenModelServiceProvider"
+                "RobelJone\\MgrModel\\AutogenModelsServiceProvider"
             ]
         }
     }
