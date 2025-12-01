@@ -12,11 +12,5 @@
                 "RobelJone\\MgrModel\\AutogenModelsServiceProvider"
             ]
         }
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "packages/robeljone/mgtmodel"
-        }
-    ]
+    }
 }
