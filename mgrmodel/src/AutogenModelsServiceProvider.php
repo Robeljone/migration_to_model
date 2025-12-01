@@ -5,7 +5,7 @@ namespace RobelJone\MgrModel;
 use Illuminate\Support\ServiceProvider;
 use RobelJone\MgrModel\Commands\GenerateModelsCommand;
 
-class AutogenModelServiceProvider extends ServiceProvider
+class AutogenModelsServiceProvider extends ServiceProvider
 {
     public function boot()
     {
