@@ -19,7 +19,7 @@ class GenerateModelsCommand extends Command
             mkdir($modelsDir, 0755, true);
         }
 
-        $this->info("🔍 Scanning migrations...");
+        $this->info("Scanning migrations...");
 
         foreach (glob("$migrationsDir/*.php") as $file) {
             $content = file_get_contents($file);

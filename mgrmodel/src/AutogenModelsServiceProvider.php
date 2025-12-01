@@ -1,6 +1,6 @@
 <?php
 
-namespace Autogen\Models;
+namespace RobelJone\MgrModel;
 
 use Illuminate\Support\ServiceProvider;
 use Autogen\Models\Commands\GenerateModelsCommand;
