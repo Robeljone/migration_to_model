@@ -1,12 +1,13 @@
 <?php
 
-namespace Autogen\Models\Commands;
+namespace RobelJone\MgrModel\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
 
 class GenerateModelsCommand extends Command
 {
+
     protected $signature = 'autogen:models';
     protected $description = 'Generate Eloquent models from migration files';
 
@@ -15,7 +16,8 @@ class GenerateModelsCommand extends Command
         $migrationsDir = base_path('database/migrations');
         $modelsDir = app_path('Models');
 
-        if (!is_dir($modelsDir)) {
+        if (!is_dir($modelsDir)) 
+        {
             mkdir($modelsDir, 0755, true);
         }
 

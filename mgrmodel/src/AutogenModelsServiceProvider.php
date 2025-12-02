@@ -3,7 +3,7 @@
 namespace RobelJone\MgrModel;
 
 use Illuminate\Support\ServiceProvider;
-use RobelJone\MgrModel\Commands\GenerateModelsCommand;
+use RobelJone\MgrModel\Console\GenerateModelsCommand;
 
 class AutogenModelsServiceProvider extends ServiceProvider
 {
